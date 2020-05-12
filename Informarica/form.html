@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style type="text/css">
+
+
+        body{
+            background-color: #C1C1C1;
+        }
+        .aumentaSubmit{
+            width:60px;
+            height:40px;
+        }
+        .aumenta300{
+            width:300px;
+        }
+        .testopiepagina{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            background-color: black;
+            color:white;
+        }
+        .piedipagina {
+            position: absolute;
+            bottom: 0px;
+            margin-bottom: 0%;
+            width: 100%;
+        }
+        .horizontal {
+            width:200px;
+            height: 200px;
+            background: white;
+            margin: 0 auto;
+        }
+        .vertical{
+            width:700px;
+            height:400px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            margin:-200px 0 0 -350px;
+            background:#8C8C8C;
+            text-align: center;
+
+        }
+
+
+
+    </style>
+    <title>RaccoltaDati</title>
+</head>
+<body>
+
+<div class="vertical text-center">
+    <h1>INSERIRE DATI NEL SEGUENTE MODULO</h1>
+    <br>
+    <form action="AssimilazioneDati.php">
+        <input class="aumenta300 " type="text" placeholder="Ricoverati con sintomi">
+        <input class="aumenta300 " type="text" placeholder="Ricoverati in terapia intensiva">
+        <input class="aumenta300 " type="text" placeholder="Costretti in isolamento domiciliare">
+        <input class="aumenta300 " type="text" placeholder="Totale attualmente positivi">
+        <input class="aumenta300 " type="text" placeholder="Nuovi attualmente positivi">
+        <input class="aumenta300 " type="text" placeholder="Guariti">
+        <input class="aumenta300 " type="text" placeholder="Deceduti">
+        <input class="aumenta300 " type="text" placeholder="Totale casi">
+        <input class="aumenta300 " type="text" placeholder="Numero tamponi effettuati">
+        <input class="aumenta300 " type="text" placeholder="Totale ospedalizzati">
+        <input class="aumenta300 " type="text" placeholder="Provincia">
+        <input class="aumenta300 " type="text" placeholder="Ente locale"><br>
+        <br><input class="aumentaSubmit btn btn-primary" type="submit" value="invia">
+        <a href="index.php" class="btn btn-danger aumentaSubmit">Menù</a>
+    </form>
+</div>
+
+
+<div class="piedipagina">
+    <div class="testopiepagina">
+        Lavoro realizzato a scopo didattico nell'ambito informatico dal gruppo Re, Traina, Fusi, Zanzottera, Casati
+    </div>
+</div>
+</body>
+</html>
